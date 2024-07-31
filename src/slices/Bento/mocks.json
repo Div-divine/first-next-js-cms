@@ -1,0 +1,170 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Introducing a new way of building components and layouts that leaves everything else in the dust.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "The new Gold Standard.",
+							"spans": [
+								{
+									"type": "em",
+									"start": 8,
+									"end": 21
+								}
+							]
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Oldest"
+									}
+								}
+							]
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Adipisicing consequat nisi voluptate veniam. Aliqua consectetur qui amet officia id ea aute reprehenderit ad consequat minim commodo non voluptate."
+									}
+								}
+							]
+						}
+					],
+					[
+						"image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+								"width": 5616,
+								"height": 3744
+							},
+							"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+							"width": 5616,
+							"height": 3744,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Lorem ipsum",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Adipisicing consequat nisi voluptate veniam. Aliqua consectetur qui amet officia id ea aute reprehenderit ad consequat minim commodo non voluptate.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"image",
+						{
+							"__TYPE__": "ImageContent",
+							"url": "https://images.unsplash.com/photo-1716249383743-7a5219dbd703?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyMTE0MTM1fDA&ixlib=rb-4.0.3&q=85",
+							"alt": "a person holding a bunch of fruit in their hand",
+							"origin": {
+								"id": "GnrjSRj5UVU",
+								"url": "https://images.unsplash.com/photo-1716249383743-7a5219dbd703?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzIyMTE0MTM1fDA&ixlib=rb-4.0.3&q=85",
+								"width": 3552,
+								"height": 2664
+							},
+							"width": 3552,
+							"height": 2664,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								}
+							},
+							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
+						}
+					]
+				]
+			}
+		]
+	}
+]
