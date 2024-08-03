@@ -5,6 +5,7 @@ import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import { PiArrowsClockwise, PiGear } from "react-icons/pi";
 import clsx from "clsx";
+import AnimatedContent from "./AnimatedContent";
 
 const Icons = {
   gear: <PiGear />,
@@ -27,15 +28,16 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
       className="relative"
     >
       <div className="glow absolute -z-10 aspect-square w-full max-w-xl rounded-full bg-blue-400/20 blur-3xl filter" />
-
-      <PrismicRichText field={slice.primary.heading}
-        components={{
-          heading2: ({ children }) => (
-            <h2 className="text-balance text-center text-5xl font-medium md:text-7xl">
-              {children}
-            </h2>
-          )
-        }} />
+      <AnimatedContent>
+        <PrismicRichText field={slice.primary.heading}
+          components={{
+            heading2: ({ children }) => (
+              <h2 className="text-balance text-center text-5xl font-medium md:text-7xl">
+                {children}
+              </h2>
+            )
+          }} />
+      </AnimatedContent>
       <div className="grid mt-16 items-center rounded-xl border border-x-blue-50/20 bg-gradient-to-b from-slate-50/15 to-slate-50/5
       p-8 backdrop-blur-sm lg:grid-cols-3 lg:py-12 gap-8 lg:gap-0">
         <div>
@@ -53,7 +55,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
           </ButtonLink>
         </div>
         <PrismicNextImage field={slice.primary.image} className={clsx("opacity-90 shadow-2xl lg:col-span-2 lg:pt-0",
-        slice.variation == "reverse" ? "lg:order-1 lg:translate-x-[15]" : "lg:-order-1 lg:translate-x-[-15]"
+          slice.variation == "reverse" ? "lg:order-1 lg:translate-x-[15]" : "lg:-order-1 lg:translate-x-[-15]"
         )} />
       </div>
     </Bounded>
