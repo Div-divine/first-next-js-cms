@@ -26,6 +26,10 @@ export default function AnimatedContent({ slice }: { slice: Content.Integrations
     const preferesReducedMotion = usePrefersReducedMotion();
     gsap.registerPlugin(useGSAP);
 
+    if(preferesReducedMotion){
+        return ;
+      }
+
     useGSAP(() => {
         const tl = gsap.timeline({
             repeat: -1,
